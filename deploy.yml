@@ -3,6 +3,6 @@
   tasks:
     - name: Copy WAR file to Tomcat webapps directory
       copy:
-        src: target/MymavenWebapp01.war
+        src: target/MymavenWebApp01.war
         dest: /opt/tomcat/webapps/MymavenWebApp01-final.war
 
